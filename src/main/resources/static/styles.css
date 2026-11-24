@@ -1,0 +1,126 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2937;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-div {
+    background: #ffffff;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    padding: 24px 32px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 32px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.container {
+    width: 100%;
+    background: #ffffff;
+    padding: 20px 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.table th {
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+.table tr:hover td {
+    background-color: #f9fafb;
+}
+
+.actionButtons {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-delete,
+.btn-update {
+    width: auto;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: #dc2626;
+}
+
+.btn-delete:hover {
+    background-color: #b91c1c;
+}
+
+.btn-update {
+    background-color: #2563eb;
+}
+
+.btn-update:hover {
+    background-color: #1d4ed8;
+}
+
